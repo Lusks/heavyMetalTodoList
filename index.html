@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavy Metal To-do List</title>
+
+    <!-- Configurações Gerais - CSS(1) -->
+    <link rel="stylesheet" href="/css/configuracoesGerais.css">
+
+    <!-- Cores Principais - CSS(2) -->
+    <link rel="stylesheet" href="/css/coresPrincipais.css">
+
+    <!-- Hovers - CSS(3) -->
+    <link rel="stylesheet" href="/css/hovers.css">
+
+    <!-- Botões - CSS(4) -->
+    <link rel="stylesheet" href="/css/botoes.css">
+
+    <!-- Font Awesome - Ícones -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Fonte - Título -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <!-- Fonte - Tarefas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body id="corDoFundo">
+    <section class="app">
+        <div class="titulo">Heavy Metal To-do List</div>
+        <div class="divAdicionarTarefa">
+            <input class="inputNovaTarefa" placeholder="Crie sua nova tarefa!" maxlength="60"></input>
+            <button class="botaoAdicionarTarefa">+</button>
+        </div>
+
+        <div class="divInvisivel">
+            <!-- Tarefas criadas -->
+            <ul class="divTarefas"></ul>
+            <i class="fas fa-edit botaoEditarTarefaInvisivel"></i>
+            <i class="fas fa-trash botaoDeletarTarefaAtivo"></i>
+        </div>
+
+    </section>
+
+    <script src="/js/main.js"> </script>
+    <script src="/js/adicionarTarefa.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+#corDoFundo {
+    /* background-color: rgb(26, 26, 26); */
+    background-image: linear-gradient(to bottom, black, black, rgb(90, 0, 0));
+}
+
+.titulo {
+    color: rgb(230, 0, 0);
+    text-shadow: 1px 1px whitesmoke;
+}
+
+.app {
+    background-color: rgb(15, 15, 15);
+    border: 1px solid gray;
+}
+
+.inputNovaTarefa {
+    background-color: gray;
+}
+
+.botaoAdicionarTarefa {
+    background-color: rgb(230, 0, 0);
+    border: 1px solid gray;
+    color: whitesmoke;
+}
+
+.botaoEditarTarefaAtivo {
+    background-color: rgb(230, 0, 0);
+    border: 1px solid gray;
+    color: whitesmoke;
+}
+
+.botaoDeletarTarefaAtivo {
+    background-color: rgb(230, 0, 0);
+    border: 1px solid gray;
+    color: whitesmoke;
+}
+
+.divAtivado {
+    background-color: gray;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+

@@ -1,0 +1,36 @@
+.titulo:hover {
+    text-shadow: 2px 1px yellow;
+    transition: .2s ease-out;
+}
+
+.inputNovaTarefa:hover {
+    background-color: rgb(180, 180, 180);
+    transition: .2s ease-out;
+}
+
+li:hover {
+    background-color: rgb(180, 180, 180);
+    transition: .2s ease-out;
+    border-bottom: 1px solid whitesmoke;
+    color: rgb(230, 0, 0);
+}
+
+.botaoAdicionarTarefa:hover {
+    border: 1px solid rgb(180, 180, 180);
+    transition: .2s ease-out;
+    background-color: rgb(231, 75, 75);
+}
+
+.botaoEditarTarefaAtivo:hover {
+    border: 1px solid rgb(180, 180, 180);
+    transition: .2s ease-out;
+    background-color: rgb(231, 75, 75);
+}
+
+.botaoDeletarTarefaAtivo:hover {
+    border: 1px solid rgb(180, 180, 180);
+    transition: .2s ease-out;
+    background-color: rgb(231, 75, 75);
+}
+
+

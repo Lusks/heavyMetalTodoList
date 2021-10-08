@@ -1,0 +1,57 @@
+.botaoAdicionarTarefa {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+    transition: .2s ease-in;
+}
+
+.botaoEditarTarefaInvisivel {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+    transition: .2s ease-in;
+    display: none;
+}
+
+.botaoEditarTarefaAtivo {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+    transition: .2s ease-in;
+}
+
+.botaoDeletarTarefaInvisivel {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+    transition: .2s ease-in;
+    display: none;
+}
+
+.botaoDeletarTarefaAtivo {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    font-size: 1.5rem;
+    transition: .2s ease-in;
+}
+
