@@ -10,6 +10,8 @@ botaoAdicionarTarefa.addEventListener('click', function () {
         divInvisivel.classList.add('divAtivado')
         botaoEditarTarefaInvisivel.classList.remove('botaoEditarTarefaInvisivel')
         botaoEditarTarefaInvisivel.classList.add('botaoEditarTarefaAtivo')
+        botaoDeletarTarefaInvisivel.classList.remove('botaoDeletarTarefaInvisivel')
+        botaoDeletarTarefaInvisivel.classList.add('botaoDeletarTarefaAtivo')
     }
 
     let tarefa = document.createElement('li')

@@ -49,7 +49,7 @@ body {
     margin-top: 50px;
     margin-left: 80px;
     width: 505px;
-    transition: .2s ease-in-out;
+    transition: .2s ease-in;
     display: none;
 }
 
@@ -58,7 +58,7 @@ body {
     margin-top: 50px;
     margin-left: 80px;
     width: 505px;
-    transition: .2s ease-in-out;
+    transition: .2s ease-out;
     display: flex;
 }
 
